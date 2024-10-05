@@ -8,7 +8,7 @@ Overall, this project provided a hands-on experience with C++ and allowed me to 
 
 I wrote this software to get more familiar with the C++ language
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/x0kGtaYgjds)
 
 # Development Environment
 
