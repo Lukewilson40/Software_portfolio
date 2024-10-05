@@ -1,17 +1,13 @@
 # Overview
 
-As a software engineer, my goal with this project is to deepen my understanding of software development while building functional and user-friendly applications. This particular software is designed to say "hello world".
-
-[Software Demo Video](https://youtu.be/2XvO0dj2NC8)
+As a software engineer, my goal with this project is to deepen my understanding of software development while building functional and user-friendly applications.
 
 # Development Environment
 
-I developed this software using Visual Studio Code, which allowed me to efficiently write, test, and debug my code.
-
-For this project, I used Python.
+I am developing software using Visual Studio Code, which allows me to efficiently write, test, and debug my code.
 
 # Useful Websites
 
-Here are some websites that I found helpful throughout this project:
+Here are some websites that I found helpful throughout my projects:
 
--   [w3schools.com/python](https://www.w3schools.com/python/default.asp)
+-   [w3schools.com/python](https://www.w3schools.com/)
