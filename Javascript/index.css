@@ -1,0 +1,127 @@
+/* General Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+/* Main container */
+#task-manager {
+	max-width: 500px;
+	margin: 2rem auto;
+	padding: 2rem;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: #f9f9f9;
+}
+
+/* Title */
+h2 {
+	text-align: center;
+	color: #333;
+	margin-bottom: 1rem;
+}
+
+/* Form styling */
+#task-form {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 1rem;
+}
+
+#task-form input[type='text'],
+#task-form input[type='date'] {
+	flex: 1;
+	padding: 0.5rem;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+#task-form button {
+	padding: 0.5rem 1rem;
+	border: none;
+	background-color: #28a745;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+}
+
+#task-form button:hover {
+	background-color: #218838;
+}
+
+/* Task filters */
+#task-filters {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#task-filters button {
+	padding: 0.4rem 1rem;
+	border: none;
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 0 5px;
+	transition: background-color 0.3s;
+}
+
+#task-filters button:hover {
+	background-color: #0056b3;
+}
+
+/* Task list styling */
+#task-list {
+	list-style-type: none;
+}
+
+.task-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.75rem;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin-bottom: 0.5rem;
+	background-color: #fff;
+	transition: box-shadow 0.3s;
+}
+
+.task-item:hover {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-item span {
+	color: #333;
+}
+
+.task-item button {
+	padding: 0.3rem 0.6rem;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.complete-btn {
+	background-color: #17a2b8;
+	color: white;
+	transition: background-color 0.3s;
+}
+
+.complete-btn:hover {
+	background-color: #138496;
+}
+
+.delete-btn {
+	background-color: #dc3545;
+	color: white;
+	transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+	background-color: #c82333;
+}
