@@ -5,6 +5,12 @@ started_entry = False
 # get todays date
 date = datetime.datetime.now().strftime("%Y-%m-%d")
 
+# enter the date in the text file
+if started_entry == False:
+    with open("behavior_tracker.txt", "a") as file:
+        file.write(f"\nDate: {date}\n")
+    started_entry = True
+
 # check if there is a journal entry for today in the text file
 with open("behavior_tracker.txt", "r") as file:
     lines = file.readlines()
@@ -12,12 +18,6 @@ with open("behavior_tracker.txt", "r") as file:
     for line in lines:
         if date in line:
             started_entry = True
-
-# enter the date in the text file
-if started_entry == False:
-    with open("behavior_tracker.txt", "a") as file:
-        file.write(f"\nDate: {date}\n")
-    started_entry = True
 
 # print the tracker for "today"
 with open("behavior_tracker.txt", "r") as file:
