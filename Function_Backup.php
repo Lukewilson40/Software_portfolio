@@ -5,7 +5,7 @@
 * Description: A plugin that allows you to add, edit, or delete functions to and from a database and execute them from the website.
 * Version: 3.1
 * Author: Luke Wilson
-* Author URI: https://example.com/luke-wilson
+* Author URI: https://github.com/Lukewilson40
 */
 
 // Include the necessary WordPress file to use get_plugin_data()
