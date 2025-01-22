@@ -10,4 +10,4 @@ I am developing software using Visual Studio Code, which allows me to efficientl
 
 Here are some websites that I found helpful throughout my projects:
 
--   [w3schools.com/python](https://www.w3schools.com/)
+-   [w3schools.com](https://www.w3schools.com/)
