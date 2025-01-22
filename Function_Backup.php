@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: Function Backup Plugin
-* Plugin URI: https://example.com/function-backup-plugin
+* Plugin URI: https://github.com/Lukewilson40/Software_portfolio/edit/main/Function_Backup.php
 * Description: A plugin that allows you to add, edit, or delete functions to and from a database and execute them from the website.
 * Version: 3.1
 * Author: Luke Wilson
